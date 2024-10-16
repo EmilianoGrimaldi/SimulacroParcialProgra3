@@ -1,0 +1,42 @@
+body {
+  margin: 5;
+}
+
+main {
+  width: 98vw;
+  height: 97vh;
+  display: grid;
+  grid-template-rows: 15% 10% 75%;
+  grid-template-columns: 1fr;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  grid-row: 1;
+  grid-column: 1;
+}
+#contBtnVolver {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+#contTitulo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#seriesGuardadas {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+}
